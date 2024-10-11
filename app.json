@@ -1,8 +1,9 @@
 {
   "expo": {
     "name": "lab-1-cprg303",
+    "scheme": "lab-1-cprg303",
     "slug": "lab-1-cprg303",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -21,7 +22,11 @@
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
